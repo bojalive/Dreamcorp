@@ -105,10 +105,10 @@
 
 		$("#preloader").animate({
 			'opacity': '0'
-		}, 0, function(){
+		}, 100, function(){
 			setTimeout(function(){
 				$("#preloader").css("visibility", "hidden").fadeOut();
-			}, 0);
+			}, 100);
 		});
 	});
 
